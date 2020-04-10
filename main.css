@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND COLOUR & IMAGES */
+
+body {
+    background-color:#062863;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/pv_logo1.png),
+    url(/images/pv_logo2.png),
+    url(/images/pv_logo3.png),
+    url(/images/pv_logo4.png);
+    
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-attachment: fixed;
+    background-position:
+    top -15% left -1%,
+    top -1% right -9%,
+    bottom -10% left -5%,
+    bottom -5% right -6.5%;
+}
+
+/* LOGO */
+
+.logo {
+    margin: 0 auto;
+    width: 300px;
+    padding: 50px;
+}
+
+/* FORM CONTAINER */
+
+
+.main-form {
+    background-color: #fff;
+    margin: auto;
+    width: 450px;
+    padding: 40px;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+/* TOP PART OF FORM */
+
+.head {
+    padding-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: #083e9e;
+    font-size: larger;
+    text-align: center;
+}
+
+p {
+    color: rgb(122, 118, 118);
+    font-size: small;
+    text-align: center;
+}
+
+/* SUBCARTEGORIES OF FORM */
+
+.form-sub {
+    /* width: 80%; */
+    margin: 0 auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #3d4249;
+    font-size: .75rem;
+    /* line-height: 0; */
+    font-weight: 700;
+}
+
+input {
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    padding: 1rem;
+    color: #1a202c;
+    border-radius: 0.25rem;
+    background-color: #edf2f7;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    line-height: inherit;
+    overflow: visible;
+    font-size: 100%;
+    margin: 0;
+    border-color: rgb(226, 232, 240);
+    border-style: solid;
+    border-width: 0px;
+}
+
+/* DROPDOWN */
+
+select {
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    padding: 1rem;
+    color: #1a202c;
+    background-color: #edf2f7;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    line-height: inherit;
+    overflow: visible;
+    font-size: 100%;
+    margin: 0;
+    border-color: rgb(226, 232, 240);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0.5rem;
+}
+
+option {
+background-color: #fff;
+color: #333;
+}
+
+/* CREATE ACCOUNT BUTTON */
+
+button {
+    width: 370px;
+    margin: 0 auto;
+    background-color: rgb(8, 62, 158);
+    font-size: 0.875rem;
+    flex-direction: row;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem; 
+    padding-bottom: 1rem;
+    justify-content: center;
+    display: flex;
+    border-bottom-right-radius: 0.75rem;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    border: 0 solid #e2e8f0;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+/* BOTTOM OF PAGE LOGIN */
+
+.login {
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+    padding: .25rem;
+    justify-content: center;
+    display: flex;
+    text-decoration: inherit;
+}
